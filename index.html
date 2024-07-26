@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Ahmed Ibrahim, a frontend web developer from Egypt.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Ahmed Ibrahim - Frontend Developer</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div><p class="active" style="color: white;">Ahmed Ibrahim</p></div>
+        <div class="nav-links">
+            <a href="#home" class="navlink">Home</a>
+            <a href="#about" class="navlink">About Me</a>
+            <a href="#work" class="navlink">Projects</a>
+            <a href="#contact" class="navlink">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+        <p class="p1">Frontend Web Developer</p>
+        <p class="p2">Hello, I'm <span>Ahmed Ibrahim.</span><br> From Egypt.</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <aside class="side1">
+            <img src="Images/about.jpg" width="200" alt="About Me">
+        </aside>
+        <aside class="side2">
+            <h1 class="title">About Me</h1>
+            <p class="about">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, inventore quod? Qui, possimus. 
+                Numquam dicta mollitia iusto dolores ad ratione fugit saepe et accusamus. Consequuntur impedit 
+                aliquam dolor commodi quae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel et 
+                enim nihil modi molestias, voluptas fugit obcaecati aperiam exercitationem repellendus harum 
+                neque dolores nobis voluptatum. Cupiditate alias atque quidem nobis! Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Est, reiciendis corporis commodi magni corrupti nam obcaecati 
+                eveniet excepturi dicta culpa quaerat ad veniam incidunt consequatur in? Est alias totam 
+                consequatur.
+            </p>
+            <div class="button-container">
+                <button class="skills active" data-target="paragraph1">Skills</button>
+                <button class="skills" data-target="paragraph2">Experience</button>
+                <button class="skills" data-target="paragraph3">Education</button>
+            </div>
+            <p class="text paragraph1 active">
+                <span>Technical Skills</span><br><br>
+                Programming languages: HTML, CSS, JavaScript, SCSS, etc.<br><br>
+                Frameworks and libraries: Bootstrap.<br><br>
+                Tools and platforms: Git, GitHub, VS Code, etc.
+            </p>
+            <p class="text paragraph2">
+                <span>Work Experience:</span><br><br>
+                [Company Name] - [Job Title] Description of your role, responsibilities, and achievements.<br>
+                [Company Name] - [Job Title] Key projects or initiatives you were part of and your contributions.<br>
+                Freelance Projects: [Project Name/Description] Overview of the project, your role, and the 
+                technologies used.<br>
+                [Project Name/Description] Any challenges faced and how you overcame them.
+            </p>
+            <p class="text paragraph3">
+                <span>Education:</span><br><br>
+                [Institution Name] - [Degree/Certification] Brief description of your studies, relevant courses, 
+                and achievements.
+            </p>
+        </aside>
+    </div><br>
+
+    <!-- Projects Section -->
+    <div class="work" id="work">
+        <h1 class="title">My Work</h1>
+        <div class="card-list">
+            <div class="card">
+                <div class="card-content">
+                    <p class="card-title">Project Title</p>
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident, suscipit recusandae 
+                        veniam consequatur eveniet harum maiores velit, labore reprehenderit impedit enim porro nostrum 
+                        neque incidunt tempore. Laborum, tempore dolorum!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link" aria-label="Project Link"></i></a>
+                </div>
+            </div>
+            <!-- Repeat .card for additional projects -->
+            <div class="card">
+                <div class="card-content">
+                    <p class="card-title">Project Title</p>
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident, suscipit recusandae 
+                        veniam consequatur eveniet harum maiores velit, labore reprehenderit impedit enim porro nostrum 
+                        neque incidunt tempore. Laborum, tempore dolorum!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link" aria-label="Project Link"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p class="card-title">Project Title</p>
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident, suscipit recusandae 
+                        veniam consequatur eveniet harum maiores velit, labore reprehenderit impedit enim porro nostrum 
+                        neque incidunt tempore. Laborum, tempore dolorum!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link" aria-label="Project Link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="see-more">See More</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+        <aside class="aside1 div-contact">
+            <p class="contact-title">Contact Me</p>
+            <p><span><i class="fa-solid fa-paper-plane"></i></span> Contact@yourmail.com</p>
+            <p><span><i class="fa-solid fa-phone"></i></span> 1234567890</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="button-container">
+                <button class="download-cv">Download CV</button>
+            </div>
+        </aside>
+        <aside class="aside2 div-contact">
+            <form action="#">
+                <input type="text" id="name" placeholder="Name" required><br>
+                <input type="email" id="email" placeholder="Email" required><br>
+                <textarea id="message" placeholder="Your Message" required></textarea><br>
+                <div class="button-container">
+                    <button class="submit" id="submitBtn">Submit</button>
+                </div>
+            </form>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="back-to-top">
+                <a href="#top">Back to Top</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Ahmed Ibrahim. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/style.js"></script>
+</body>
+</html>
